@@ -1,14 +1,18 @@
 import Head from "next/head"
+import Header from "./Header"
+import Footer from './Footer'
 
-export default function Layout({children, title, description}) {
+export default function Layout({children, title = '', description = ''}) {
   return (
     <>
     <Head>
         <title>{`Emprendete Bazar - ${title}`}</title>
-        
+        <meta name="description" content={description} />
+        <link rel="icon" href="/emprendete-logo-1.ico" />
     </Head>
-    <h2>Desde lay out</h2>
+    <Header/>
         {children}
+    <Footer/>
     </>
   )
 }

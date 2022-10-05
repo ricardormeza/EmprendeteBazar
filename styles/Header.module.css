@@ -1,0 +1,38 @@
+.header{
+    background-color: #0093E9;
+    background-image: linear-gradient(147deg, #0093E9 0%, #80D0C7 100%);
+    padding: .05rem;
+    
+}
+.logoEmprendete{
+    display: flex;
+    justify-content: center;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .barra{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: .5rem;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+.navegacion a:hover, .active{
+    background-color: var(--pinkfav);
+    border-radius: 1rem;
+}

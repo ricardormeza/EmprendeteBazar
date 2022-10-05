@@ -14,8 +14,12 @@ export default function Home() {
       </Head> */}
       <Layout
         title={'Inicio'}
+        description={'Emprendete Bazar es el sitio lider de compra y venta de productos de emprendedores locales en Tuxtla Gutíerrez, Chiapas.'}
       >
-        <h1>Hola</h1>
+        <div className='contenedor'>
+          <h1>Emprendete Bazar Inicio</h1>
+
+        </div>
       </Layout>
 
       
