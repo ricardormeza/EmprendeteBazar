@@ -34,7 +34,6 @@ export default function Home() {
                 className={styles.logoImg}
               />
               <div className={styles.description}>
-              
                 <h1 className={styles.titulo}>Emprendete Bazar</h1>
                 <p><span>Emprendete</span> Bazar es el sitio lider de <span> compra y venta</span> de productos de <span>emprendedores</span> locales en <span> Tuxtla Gutíerrez, Chiapas</span>.  </p>
                 <div className={styles.botonesInicio}>
