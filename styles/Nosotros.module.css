@@ -1,4 +1,69 @@
 .NosotrosImagen{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+@media screen and (max-width: 480px){
+    .NosotrosImagen{
+    grid-template-columns: 1fr;
+    }
+}
+.NosotrosEncabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NosotrosEncabezado h1{
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-size: 4rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.NosotrosEncabezado h2{
+    margin: 0;
+}
+.NosotrosEncabezado p{
+    text-align: center;
+}
+.queEsNosotros{
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.queEsNosotros img{
+    margin: 0 auto;
+}
+.subtituloNosotros{
+    text-align: center;
+}
+.nosotrosGridValores{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+}
+@media screen and (max-width: 480px){
+    .nosotrosGridValores{
+    grid-template-columns: 1fr;
+    }
+}
+.nosotrosCard{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.nosotrosCardImg{
+    color: #B721FF;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+.nosotrosCard h4{
+    color: #B721FF;
+}
+.nosotrosCard p{
+    font-size: 1.8rem;
+    text-align: center;
 }
