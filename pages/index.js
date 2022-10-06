@@ -1,8 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
+import Carusel from '../components/emprendete/carusel'
+import { FcContacts, FcPhoneAndroid } from 'react-icons/fc'
+import SeccionUno from '../components/emprendete/seccionUno'
+import SeccionDos from '../components/emprendete/SeccionDos'
+import Contacto from '../components/emprendete/Contacto'
+import SeccionRedes from '../components/redes/SeccionRedes'
 
 export default function Home() {
   return (
@@ -16,10 +22,43 @@ export default function Home() {
         title={'Inicio'}
         description={'Emprendete Bazar es el sitio lider de compra y venta de productos de emprendedores locales en Tuxtla Gutíerrez, Chiapas.'}
       >
-        <div className='contenedor'>
-          <h1>Emprendete Bazar Inicio</h1>
-
-        </div>
+        <main className='contenedor'>
+          <div>
+            <Carusel/>
+            <div>
+              <Image 
+                src="/images/emprendete-logo-1.png"
+                width={100}
+                height={100}
+                alt="imagen de bazar"
+                className={styles.logoImg}
+              />
+              <div className={styles.description}>
+              
+                <h1 className={styles.titulo}>Emprendete Bazar</h1>
+                <p><span>Emprendete</span> Bazar es el sitio lider de <span> compra y venta</span> de productos de <span>emprendedores</span> locales en <span> Tuxtla Gutíerrez, Chiapas</span>.  </p>
+                <div className={styles.botonesInicio}>
+                  <Link href="/nosotros">
+                    <a>
+                    <FcContacts/>
+                    Nosotros
+                    </a>
+                  </Link>
+                  <Link href="/contacto">
+                    <a>
+                    Contactar
+                    <FcPhoneAndroid/>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <SeccionUno/>
+        <SeccionDos/>
+        <Contacto/>
+        <SeccionRedes/>
       </Layout>
 
       

@@ -1,0 +1,21 @@
+.ContactoRedes{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    
+}
+.ContactoRedes a{
+    background-color: #0093E9;
+    background-image: linear-gradient(147deg, #0093E9 0%, #80D0C7 100%);
+    color: var(--white);
+    padding: .8rem;
+    border-radius: .7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+.ContactoRedes a:hover{
+    
+    color: var(--white);
+    border-color: var(--pinkfav);
+}
