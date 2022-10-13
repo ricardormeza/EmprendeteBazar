@@ -91,3 +91,14 @@
         gap: 9rem;
     }
 }
+.logoNuevo{
+    filter: drop-shadow(-1px 5px 11px #A9139A);
+    /* -webkit-box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22);
+    -moz-box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22);
+    box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22); */
+    transition: all 0.3s;
+}
+.logoNuevo:hover{
+    filter: drop-shadow(-2 6px 11px #ae00ff);
+    transition: all 0.3s;
+}

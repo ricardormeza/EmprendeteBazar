@@ -1,0 +1,106 @@
+.titulo{
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-size: 4rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.subtilulo{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 2px solid black;
+    width: 30%;
+}
+@media screen and (max-width: 480px){
+    .subtilulo{
+    width: 50%;
+    }
+}
+.subtitleparrafo{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    width: 20%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.subtitleparrafo:hover{
+    border-right: 3px solid #21D4FD;
+    border-left: 3px solid #21D4FD;
+    margin-top: 1rem;
+}
+.contactoIconos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+.contactoIcono{
+    font-size: 3rem;
+    color: #B721FF;
+}
+.TextoColor{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 3.2rem;
+    color: #B721FF;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+.TextoColorDos{
+    /* color: #21D4FD; */
+    -webkit-text-stroke-color: #C6C6C6;
+    -webkit-text-fill-color: #21D4FD;
+    -webkit-text-stroke-width: 1px;
+}
+.contactoGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    /* border: 1px solid red; */
+}
+@media screen and (max-width: 480px){
+    .contactoGrid{
+    grid-template-columns: 1fr;
+    }
+}
+.contactoGridItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    /* border: 1px solid green; */
+}
+@media screen and (max-width: 480px){
+    .contactoGridItem{
+    align-items: center;
+    }
+}
+.contactoGridItem a{
+    text-decoration: none;
+    color: black;
+}
+.contactoGridItems{
+    display: grid;
+    grid-template-columns: 50px auto;
+    /* border: 1px solid red; */
+}
+@media screen and (max-width: 480px){
+    .contactoGridItems{
+    grid-template-columns: 1fr;
+    }
+}
+.contactoIconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B721FF;
+}
+.contactoIco{
+    font-size: 3.1rem;
+}
+

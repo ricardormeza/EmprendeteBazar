@@ -16,11 +16,13 @@ export default function Header() {
           <div className={styles.logoEmprendete}>
           <Link href='/'>
               <a>
-              <Image src="/images/emprendete-logo-1.png" 
-                width={50} 
-                height={60} 
+              {/* <Image src="/images/logo2Emprendete.png"  */}
+              <Image src="/images/logo2Emprendete.png" 
+                width={100} 
+                height={100} 
                 alt='logo emprendete bazar'
                 style={{cursor: 'pointer'}}
+                className={styles.logoNuevo}
                 />
               </a>
               </Link>

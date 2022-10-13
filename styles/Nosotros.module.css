@@ -8,6 +8,9 @@
     grid-template-columns: 1fr;
     }
 }
+.fotoAdriana{
+    border-radius: 1rem;
+}
 .NosotrosEncabezado{
     display: flex;
     flex-direction: column;
@@ -37,6 +40,10 @@
 }
 .subtituloNosotros{
     text-align: center;
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-size: 4rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nosotrosGridValores{
     display: grid;
@@ -54,6 +61,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 .nosotrosCardImg{
     color: #B721FF;
@@ -66,4 +74,141 @@
 .nosotrosCard p{
     font-size: 1.8rem;
     text-align: center;
+}
+.nosotrosGridUno{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+@media screen and (max-width: 834px){
+    .nosotrosGridUno{
+    grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 480px){
+    .nosotrosGridUno{
+    grid-template-columns: 1fr;
+    }
+}
+.caruselNosotros{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.NosotrosUnoParrafo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.UneteBtn{
+    background-color: #B721FF;
+    border-radius: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    width: 20%;
+}
+@media screen and (max-width: 480px){
+    .UneteBtn{
+    width: 35%;
+    }
+}
+.UneteBtn:hover{
+    color: #B721FF;
+    background-color: var(--white);
+    border: 1px solid #B721FF ;
+}
+.MisionVisionGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media screen and (max-width: 480px){
+    .MisionVisionGrid{
+    grid-template-columns: 1fr;
+    }
+}
+.MisionSubtitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+
+/* ACORDION SECTION */
+.accordionSection{
+    display: flex;
+    flex-direction: column;
+}
+.accordion{
+    background-color: #52bad3;
+    color: #444;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+}
+.accordion:hover,
+.active{
+    background-color: #129ce4;
+}
+.accordionTitle{
+    /* font-weight: 600; */
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 1px;
+}
+.accordionIcon{
+    margin-left: auto;
+    transition: transform 0.6s ease;
+    /* color: #8958fe; */
+    color: white;
+    font-size: 1.5rem;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.accordionContent{
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    /* max-height: 0; */
 }

@@ -195,21 +195,22 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .gridSeccionDos{
-  
-  background-color: #f3f4f6;
+  background-color: #00bcd4;
 }
 .listItem{
   list-style: none;
   /* border: 1px solid #4b5563; */
   text-align: center;
+  color: var(--white);
   width: 90%;
 }
 .listItemIcon{
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 4rem;
+  /* color: #B721FF; */
 }
 .listItemTitle{
-  color: #111827;
+  color: #9747ff;
   font-size: 2.6rem;
   font-weight: bold;
   text-align: center;
