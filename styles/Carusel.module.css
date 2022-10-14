@@ -12,3 +12,8 @@ background-size: cover;
 display: block;
 width: 100%;
 }
+.caruselContenedor{
+    display: flex;
+    margin-top: -3rem;
+    width: 100%;
+}

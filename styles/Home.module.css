@@ -131,6 +131,11 @@
   margin: 0 auto;
   width: 60%;
 }
+@media (max-width: 600px) {
+  .description {
+    width: 65%;
+  }
+}
 .description p{
   font-size: 3rem;
 }
@@ -180,6 +185,11 @@
 .SeccionUno{
   margin: 0 auto;
   width: 60%;
+}
+@media screen and (max-width: 480px){
+  .SeccionUno{
+    width: 65%;
+  }
 }
 .SeccionUno p{
   font-size: 3rem;
