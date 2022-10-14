@@ -68,6 +68,11 @@
     font-size: 4rem;
     margin-top: 2rem;
 }
+@media screen and (max-width: 834px){
+    .nosotrosCardImg{
+    margin-top: 0;
+    }
+}
 .nosotrosCard h4{
     color: #B721FF;
 }
@@ -95,6 +100,11 @@
     height: 400px;
     margin: 0 auto;
 }
+@media screen and (max-width: 480px){
+    .caruselNosotros{
+    width: 350px;
+    }
+}
 .swiper {
     width: 100%;
     height: 100%;
@@ -103,7 +113,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -169,7 +178,11 @@
     align-content: center;
     gap: 1rem;
 }
-
+@media screen and (max-width: 480px){
+    .MisionSubtitulo{
+    justify-content: center;
+    }
+}
 
 /* ACORDION SECTION */
 .accordionSection{
