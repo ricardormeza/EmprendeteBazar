@@ -203,6 +203,7 @@
 .gridSeccionDos{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem;
 }
 .gridSeccionDos{
   background-color: #00bcd4;

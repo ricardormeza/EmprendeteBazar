@@ -2,7 +2,7 @@ import React from 'react'
 import { FcSalesPerformance, 
     FcPieChart, 
     FcPodiumWithAudience } from 'react-icons/fc'
-    import { FaHandsHelping, FaBroadcastTower, FaUserFriends  } from 'react-icons/fa'
+    import { FaHandsHelping, FaBroadcastTower, FaUserFriends, FaGratipay  } from 'react-icons/fa'
 import styles from '../../styles/Home.module.css'
 
 
@@ -22,7 +22,7 @@ export default function SeccionDos() {
                         </li>
                         <li className={styles.listItem}>
                             <div className={styles.listItemIcon}>
-                                <FaBroadcastTower />
+                                <FaGratipay />
                             </div>
                             <p className={styles.listItemTitle}>Posiciona tu marca</p>
                             <p>Haz crecer ese sueño que tienes en mente.</p>

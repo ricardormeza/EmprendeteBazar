@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 1.5rem;
 }
 .navegacion a{
     color: white;
@@ -92,13 +93,13 @@
     }
 }
 .logoNuevo{
-    filter: drop-shadow(-1px 5px 11px #A9139A);
+    /* filter: contrast(205%) brightness(10%); */
     /* -webkit-box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22);
     -moz-box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22);
     box-shadow: -7px 9px 5px 0px rgba(183,33,255,0.22); */
     transition: all 0.3s;
 }
-.logoNuevo:hover{
+/* .logoNuevo:hover{
     filter: drop-shadow(-2 6px 11px #ae00ff);
     transition: all 0.3s;
-}
+} */
